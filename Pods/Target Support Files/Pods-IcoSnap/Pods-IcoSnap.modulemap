@@ -1,0 +1,6 @@
+framework module Pods_IcoSnap {
+  umbrella header "Pods-IcoSnap-umbrella.h"
+
+  export *
+  module * { export * }
+}

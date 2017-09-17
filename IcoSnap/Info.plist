@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>La App requiere acceder  a la camara del dispositivo</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>La App requiere acceder  a la biblioteca del dispositivo</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

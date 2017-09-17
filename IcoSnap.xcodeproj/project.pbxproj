@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A096F97FB68EB759B4926E /* Pods_IcoSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B78042B6815F951384BFC0A /* Pods_IcoSnap.framework */; };
 		B4F915C11F65A89D00197596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F915C01F65A89D00197596 /* AppDelegate.swift */; };
 		B4F915C31F65A89D00197596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F915C21F65A89D00197596 /* ViewController.swift */; };
 		B4F915C61F65A89D00197596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F915C41F65A89D00197596 /* Main.storyboard */; };
 		B4F915C81F65A89D00197596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F915C71F65A89D00197596 /* Assets.xcassets */; };
 		B4F915CB1F65A89D00197596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F915C91F65A89D00197596 /* LaunchScreen.storyboard */; };
+		B4F915D41F65ABEB00197596 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F915D21F65ABEB00197596 /* Bolts.framework */; };
+		B4F915D51F65ABEB00197596 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F915D31F65ABEB00197596 /* Parse.framework */; };
+		B4F915D71F65B2E300197596 /* ICOUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F915D61F65B2E300197596 /* ICOUserTableViewController.swift */; };
+		B4F915D91F65B7BA00197596 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F915D81F65B7BA00197596 /* PKHUD.framework */; };
+		B4F915DB1F65D94900197596 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F915DA1F65D94900197596 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44150BB065DEC53B09672E74 /* Pods-IcoSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IcoSnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-IcoSnap/Pods-IcoSnap.release.xcconfig"; sourceTree = "<group>"; };
+		4B78042B6815F951384BFC0A /* Pods_IcoSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IcoSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F915BD1F65A89D00197596 /* IcoSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IcoSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F915C01F65A89D00197596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F915C21F65A89D00197596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		B4F915C71F65A89D00197596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4F915CA1F65A89D00197596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4F915CC1F65A89D00197596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F915D21F65ABEB00197596 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		B4F915D31F65ABEB00197596 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse/Parse.framework"; sourceTree = "<group>"; };
+		B4F915D61F65B2E300197596 /* ICOUserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOUserTableViewController.swift; sourceTree = "<group>"; };
+		B4F915D81F65B7BA00197596 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = "Pods/../build/Debug-iphoneos/PKHUD/PKHUD.framework"; sourceTree = "<group>"; };
+		B4F915DA1F65D94900197596 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Pods/../build/Debug-iphoneos/ParseUI/ParseUI.framework"; sourceTree = "<group>"; };
+		F1E88CCE251B5856B6695911 /* Pods-IcoSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IcoSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IcoSnap/Pods-IcoSnap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F915DB1F65D94900197596 /* ParseUI.framework in Frameworks */,
+				B4F915D91F65B7BA00197596 /* PKHUD.framework in Frameworks */,
+				B4F915D41F65ABEB00197596 /* Bolts.framework in Frameworks */,
+				B4F915D51F65ABEB00197596 /* Parse.framework in Frameworks */,
+				29A096F97FB68EB759B4926E /* Pods_IcoSnap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47C8331E8BA9984AA1CD6EF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4F915DA1F65D94900197596 /* ParseUI.framework */,
+				B4F915D81F65B7BA00197596 /* PKHUD.framework */,
+				B4F915D21F65ABEB00197596 /* Bolts.framework */,
+				B4F915D31F65ABEB00197596 /* Parse.framework */,
+				4B78042B6815F951384BFC0A /* Pods_IcoSnap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		856D9629AD69F7C5743C0529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1E88CCE251B5856B6695911 /* Pods-IcoSnap.debug.xcconfig */,
+				44150BB065DEC53B09672E74 /* Pods-IcoSnap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B4F915B41F65A89D00197596 = {
 			isa = PBXGroup;
 			children = (
 				B4F915BF1F65A89D00197596 /* IcoSnap */,
 				B4F915BE1F65A89D00197596 /* Products */,
+				856D9629AD69F7C5743C0529 /* Pods */,
+				47C8331E8BA9984AA1CD6EF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +98,7 @@
 			children = (
 				B4F915C01F65A89D00197596 /* AppDelegate.swift */,
 				B4F915C21F65A89D00197596 /* ViewController.swift */,
+				B4F915D61F65B2E300197596 /* ICOUserTableViewController.swift */,
 				B4F915C41F65A89D00197596 /* Main.storyboard */,
 				B4F915C71F65A89D00197596 /* Assets.xcassets */,
 				B4F915C91F65A89D00197596 /* LaunchScreen.storyboard */,
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F915CF1F65A89D00197596 /* Build configuration list for PBXNativeTarget "IcoSnap" */;
 			buildPhases = (
+				FE18C47F0B86157DAD909D94 /* [CP] Check Pods Manifest.lock */,
 				B4F915B91F65A89D00197596 /* Sources */,
 				B4F915BA1F65A89D00197596 /* Frameworks */,
 				B4F915BB1F65A89D00197596 /* Resources */,
+				34AD7035779E4B714881C0B7 /* [CP] Embed Pods Frameworks */,
+				6B925E7A6EEDDC38DA819177 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +178,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34AD7035779E4B714881C0B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IcoSnap/Pods-IcoSnap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IcoSnap/Pods-IcoSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B925E7A6EEDDC38DA819177 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IcoSnap/Pods-IcoSnap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE18C47F0B86157DAD909D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IcoSnap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4F915B91F65A89D00197596 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B4F915C31F65A89D00197596 /* ViewController.swift in Sources */,
+				B4F915D71F65B2E300197596 /* ICOUserTableViewController.swift in Sources */,
 				B4F915C11F65A89D00197596 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +366,17 @@
 		};
 		B4F915D01F65A89D00197596 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E88CCE251B5856B6695911 /* Pods-IcoSnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bolts",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Parse",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PKHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ParseUI",
+				);
 				INFOPLIST_FILE = IcoSnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = icologic.IcoSnap;
@@ -272,9 +387,17 @@
 		};
 		B4F915D11F65A89D00197596 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44150BB065DEC53B09672E74 /* Pods-IcoSnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bolts",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Parse",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PKHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ParseUI",
+				);
 				INFOPLIST_FILE = IcoSnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = icologic.IcoSnap;
@@ -302,6 +425,7 @@
 				B4F915D11F65A89D00197596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
